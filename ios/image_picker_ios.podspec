@@ -20,5 +20,5 @@ Downloaded by pub (not CocoaPods).
   s.dependency 'Flutter'
   s.platform = :ios, '9.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
-  s.resource_bundles = {'image_picker_ios_privacy' => ['image_picker_ios/Sources/image_picker_ios/Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'image_picker_ios_privacy' => ['image_picker_ios/Resources/PrivacyInfo.xcprivacy']}
 end
